@@ -1,17 +1,124 @@
 body * {
     font-family: 'Syne', sans-serif;
  }
-
- .li.menu-item a {
-    color: #323232;
-    display: inline-block;
-    background-color: #fff;
-    text-align: center;
+ header {
+    background-color: #ECE2DA;
  }
 
- .li.menu-item a:last child {
-    color: #fff;
+ .entry-title {
+    color: #3B8E46;
+    font-weight: 800;
+    font-size: 38px;
+    text-transform: uppercase;
+ }
+
+/* HEADER */
+
+
+/* LIENS DU MENU */ 
+li.menu-item a {
+    color: #FFFFFF !important;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    gap: 0;
     display: inline-block;
+    padding: 10px 25px;
     background-color: #DC9F96;
+    border-radius: 10px;
     text-align: center;
 }
+
+li.menu-item a:hover,
+li.menu-item.current-menu-item a {
+   text-decoration: none !important;
+}
+
+.site-logo {
+    height: 20px;
+    width: 200px;
+}
+
+/* PAGE COMMANDE */
+
+.main-container-commande {
+    width: 100%;
+    padding: 20px;
+    background-color: #3B8E46;
+}
+
+.commande-main-title {
+    justify-content: center;
+    font-weight: 800;
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.title-commande {
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+form .form-commande {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.commande-section-top {
+    width: 800px;
+    color: #FFFF;
+}
+
+.commande-section1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.bg-fraise {
+    background-image: url(../img/);
+}
+
+.commande-section1 p {
+   display: flex;
+}
+
+.commande-quantity {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.commande-section-bottom {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 5px;
+    color: #FFFF;
+}
+
+
+
+
+.button-commande {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 55px;
+    background: #E0B9B4;
+    color: #FFFFFF;
+    border-radius: 5px;     
+    padding-left: 60px;
+    font-size: 15px;
+}
+
+
