@@ -1,0 +1,64 @@
+/* CSS POUR LE SHORTCODE .image-titre */
+.image-produit {
+    width: 393px;
+    height: 262px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    height: 5px; 
+    color: black; 
+    background-color: black; 
+    width: 50%; 
+    border: none;
+}
+
+.commande-section1 .image-produit {
+    width: 192px;
+    height: 128px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.commande-quantity {
+    gap: 20px;
+}
+
+.section-button-commande {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-commande-quantity {
+    width: 100px;
+    background-color: #E0B9B4;
+    border-radius: 5px;
+    color: #ffff;
+}
+
+.wpcf7-form-control-wrap {
+    height: 60px;
+}
