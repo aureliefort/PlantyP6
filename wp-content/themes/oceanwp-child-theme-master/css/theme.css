@@ -1,0 +1,519 @@
+
+html {
+    margin: 0;
+    width:100%;
+    overflow-x:hidden;
+}
+
+#site-navigation-wrap .dropdown-menu .menu-item-25 a {
+	background-color: #DC9F96;
+    color: #fff;
+}
+
+/**************PAGE ACCUEIL************/
+/***********************************/
+
+/****groupe-1-accueil****/
+
+.wp-image-36 {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+} 
+
+.wp-image-223 {
+    position: absolute;
+    top: 12%;
+    right: 50%;
+}
+
+.wp-image-49 {
+    position: relative;
+}
+
+.groupe-1-accueil {
+    border-bottom-left-radius: 30% 6%;
+    border-bottom-right-radius: 30% 6%;
+    padding: 0 20%;
+    border-bottom: solid 9px #ded4cc;
+}
+
+.groupe-fruit-accueil {
+    padding: 0 5%;
+    border-bottom-left-radius: 10% 2%;
+    border-bottom-right-radius: 10% 2%;
+}
+
+.accueil-img-produit .infobox-wrapper-inner {
+    height: 260px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accueil-img-produit .contents-wrapper {
+    display: flex;
+    margin: auto;
+}
+
+.accueil-img-produit .contents-wrapper .title {
+    margin: auto;
+    line-height: 58px;
+}
+
+.accueil-img-produit-framboise .contents-wrapper .title {
+    padding: 0px 13%;
+}
+
+.paragraphe-energie-plantes {
+    margin: 0 20%;
+}
+
+.paragraphe-gouts {
+    margin: 0 20%;
+}
+
+.block-commentaires {
+    margin: 0 7%;
+}
+
+.wp-container-26 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.wp-image-87 {
+    margin-bottom: 0;
+}
+
+.button-commander-accueil a {
+    height: 55px;
+    width: 200px;
+    margin: 3% 0;   
+}
+
+
+/********* PAGE CONTACT ********/
+/*******************************/
+
+.wp-image-35 {
+    position: absolute;
+    left: 14%;
+    bottom: 89%;
+    max-width: 1024;
+}
+
+.wp-block-image {
+    margin: 0;
+}
+
+.block-nous-rencontrer {
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    padding: 0 5%;
+}
+
+/******équipe*********/
+
+.wp-container-8 {
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
+.wp-image-37 {
+    position: absolute;
+    width: 13%;
+    right: 5%;
+    bottom: 49%;
+}
+
+.last-block-contact {
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+/*****form-contact****/
+
+.form-contact p {
+    margin: 0;
+}
+
+.form-input {
+    background-color: #fff;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    z-index: 10;
+    position: sticky;
+}
+
+.form-input p {
+    z-index: 10;
+}
+
+.form-label {
+    justify-content: right;
+}
+
+.form-button p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 7%;
+}
+
+.image-feuille-contact {
+    position: absolute;
+    bottom: 12%;
+    left: 29%;
+}
+
+
+
+/**** PAGE COMMANDE *****
+
+/*background images*/
+
+.commande-produit-img {
+    /*background-size: contain;*/
+    height: 128px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+    overflow-wrap: anywhere;
+    background-size: cover;
+}
+
+.bg-framboise p {
+    margin: 0 20%;
+}
+
+.commande-produit p {
+    /*margin: auto;*/   
+    margin: 0;
+}
+
+.bg-fraise {
+    background-image: url(../img/fraise.png);
+}
+
+.bg-citron {
+    background-image: url(../img/citron.png);
+}
+
+.bg-framboise {
+    background-image: url(../img/framboise.png);
+}
+
+.bg-pamplemousse {
+    background-image: url(../img/pamplemousse.png);
+}
+
+/****sections ****/
+
+
+
+/* PAGE COMMANDE */
+
+.commande-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.commande-main-container h2 {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.commande-main-container label {
+    color: #fff;
+    font-size: 20px;
+}
+
+.commande-top-section {
+    width: 60%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 20px 0 40px 0;
+}
+
+.commande-produits-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.commande-produit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 23%;
+    gap: 2%;
+}
+
+.commande-quantité {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 56px;
+    width: 100%;
+    gap: 7%;
+}
+
+.commande-quantité p {
+    width: 55%;
+}
+
+.input-quantité {
+    width: 70%;
+}
+
+.plus-moins {
+    width: 30%;
+}
+
+.input-quantité p {
+    width: 100%;
+}
+
+form .input-quantité input {
+    width: 100%;
+    height: 56px;
+    background-color: #fff;
+    border-radius: 5px 0 0 5px;
+}
+
+.plus-moins p {
+    height: 56px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+ 
+
+.plus {
+    height: 28px;
+    background: #DC9F96;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 0 5px 0 0;
+    padding: 0;
+    border: none;
+}
+
+.moins {
+    height: 28px;
+    background: #DC9F96;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 0 0 5px 0;
+    padding: 0;
+    border: none;
+    border-top: 1px solid #fff;
+}
+
+.commande-main-container input[type=number] {
+    -moz-appearance: textfield;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: none;
+    max-width: 100%;
+}
+
+.commande-main-container input::-webkit-outer-spin-button,
+.commande-main-container input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.block-input-quantité {
+    display: flex;
+    flex-direction: row;
+    width: 42%;
+}
+
+.button-quantité {
+    width: 100%;
+    height: 56px;
+    background: #E0B9B4;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 0;
+    border: none;
+}
+
+.button-quantité p {
+    margin: auto;
+}
+
+.commande-bottom-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+}
+
+.commande-bottom-section p {
+    margin: 0;
+}
+
+.commande-bottom-section input[type="text"] {
+    background-color: #fff;
+    border-radius: 7px;
+    margin-bottom: 20px;   
+}
+
+.commande-bottom-section input[type="email"] {
+    background-color: #fff;
+    border-radius: 7px;
+    margin-bottom: 20px;  
+}
+
+.commande-right-bottom-section {
+    width: 50%;
+    padding-left: 45px;
+    margin-top: 30px;
+    border-left: 1px solid #fff;
+}
+
+.commande-left-bottom-section {
+    width: 50%;
+    padding-right: 45px;
+    margin-top: 30px;
+}
+
+.commande-button {
+    width: 200px;
+    margin-top: 30px;
+}
+
+.formulaire-commander input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+
+/**************RERSPONSIVE****************/
+
+@media (max-width: 1024px) {
+
+    .wp-image-38, .wp-image-37, .wp-image-35, .wp-image-36, .wp-image-223 {
+        display: none;
+    }
+
+    .wp-container-27 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wp-container-27 img{
+        width: 50%;
+    }
+    
+    #main h1 {
+        font-size: 28px;
+        padding-top: 20%;
+    }
+
+    #main h2 {
+        font-size: 21px;
+    }
+
+    .block-img-gouts {
+        margin: 0 10%;
+    }
+
+    .commande-produits-container {
+        flex-direction: column;
+    }
+    
+    .commande-produit {
+        width: 100%;
+        gap: 2%;
+    }
+
+    .commande-bottom-section {
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        gap: 10%;
+    }
+
+    .commande-left-bottom-section {
+        width: 100%;
+        padding: 0;
+        
+    }
+
+    .commande-right-bottom-section {
+        width: 100%;
+        padding: 0;
+        border: none;
+    }
+
+    .eb-infobox-wrapper {
+        margin: 0;
+        background-size: cover;
+    }
+
+    .block-avis-client {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 20%;
+    }
+
+    .block-energie-plantes {
+        padding: 0 5%;
+    }
+
+    .accueil-img-produit .contents-wrapper .title {
+        font-size: 42px;
+    }
+
+    .groupe-1-accueil {
+        padding: 0;
+    }
+
+    .last-block-contact {
+        padding: 0 10%;
+    }
+
+    .block-nous-rencontrer {
+        border-bottom-left-radius: 30% 5%;
+        border-bottom-right-radius: 30% 5%;
+    }
+
+    .espace-top {
+        display: none;
+
+    }
+
+    .groupe-fruit-accueil, .groupe-1-accueil {
+        border-bottom-left-radius: 45% 3%;
+        border-bottom-right-radius: 45% 3%;
+    }
+
+}
+   
+   
+
